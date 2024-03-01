@@ -1,0 +1,4 @@
+[
+    { "front-end": ["html", "css", "scss", "react", "bootsrap", "js"] },
+    { "back-end": ["node.js", "express.js", "mongodb"] }
+]

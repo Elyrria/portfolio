@@ -1,0 +1,26 @@
+// Colors
+$primary-color: #292f36;
+$main-secondary-color: #e7762b;
+$secondary-color: #ffc289;
+$tertiary-color: #ffffff;
+$bg-color: #1a1e23;
+$html: #e54f26;
+$css: #0c73b8;
+$js: #e7a020;
+$react: #28a9e0;
+$nodejs: #68a063;
+$sass: #cd6799;
+$mongoDB: #4db33d;
+$bootstrap: #602c50;
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "IBM Plex Mono", monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+    padding: 0 24px;
+}
