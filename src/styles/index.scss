@@ -1,11 +1,16 @@
+@import "./globalStyle";
 body {
     box-sizing: border-box;
     margin: 0;
     font-family: "IBM Plex Mono", monospace;
+    color: $tertiary-color;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-#root {
-    // padding: 0 24px;
+p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
 }
