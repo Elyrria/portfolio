@@ -3,6 +3,5 @@
 .main__conatainer {
     @include globalPaddingLeftRight;
     @include globalPaddingTopBottom;
-    color: $tertiary-color;
     background-color: $primary-color;
 }

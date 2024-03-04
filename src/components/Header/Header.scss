@@ -28,6 +28,7 @@ header {
             display: flex;
             gap: 8px;
             .title-element {
+                font-family: "IBM Plex Mono", monospace;
                 font-size: 32px;
                 margin: 0;
                 @media screen and (max-width: 768px) {

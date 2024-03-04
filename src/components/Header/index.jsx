@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
 import tagC from "../../assets/svg/balise_c.svg"
-import linkedIn from "../../assets/svg/linkedin-orange.svg"
-import gitHub from "../../assets/svg/github-orange.svg"
+import iconLinkedIn from "../../assets/svg/linkedin-orange.svg"
+import iconGitHub from "../../assets/svg/github-orange.svg"
 import "./Header.scss"
 
 function Header() {
@@ -29,7 +29,7 @@ function Header() {
                         >
                             <img
                                 className="nav-linkedin"
-                                src={linkedIn}
+                                src={iconLinkedIn}
                                 alt="Icone linkedin"
                             />
                         </a>
@@ -38,7 +38,7 @@ function Header() {
                             rel="noreferrer"
                             href="https://github.com/Elyrria"
                         >
-                            <img src={gitHub} alt="Icone GitHub" />
+                            <img src={iconGitHub} alt="Icone GitHub" />
                         </a>
                     </div>
                 </nav>

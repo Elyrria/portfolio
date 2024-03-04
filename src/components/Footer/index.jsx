@@ -1,5 +1,5 @@
-import linkedIn from "../../assets/svg/linkedin.svg"
-import gitHub from "../../assets/svg/github.svg"
+import iconLinkedIn from "../../assets/svg/linkedin.svg"
+import iconGitHub from "../../assets/svg/github.svg"
 import "./Footer.scss"
 
 function Footer() {
@@ -17,7 +17,7 @@ function Footer() {
                                 rel="noreferrer"
                                 href="https://www.linkedin.com/in/quentin-dumon-13628a255/"
                             >
-                                <img src={linkedIn} alt="Icone LinkedIn" />
+                                <img src={iconLinkedIn} alt="Icone LinkedIn" />
                             </a>
                         </div>
                         <div className="socialLinks__container">
@@ -26,7 +26,7 @@ function Footer() {
                                 rel="noreferrer"
                                 href="https://github.com/Elyrria"
                             >
-                                <img src={gitHub} alt="Icone GitHub" />
+                                <img src={iconGitHub} alt="Icone GitHub" />
                             </a>
                         </div>
                     </div>

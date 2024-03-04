@@ -1,0 +1,70 @@
+@import "../../styles/globalStyle";
+.card__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    border: 3px solid $tertiary-color;
+    border-radius: 160px 0px;
+    box-shadow: -4px -4px 2px 0px $main-secondary-color;
+
+    &-profilPicture {
+        width: 96px;
+        height: 96px;
+        margin-bottom: 16px;
+        margin-top: 16px;
+        img {
+            border-radius: 50%;
+            border: 3px solid $main-secondary-color;
+        }
+    }
+    &-h2 {
+        font-size: 32px;
+    }
+    &-h3 {
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    &-links {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 16px;
+        & .link__container {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            img {
+                width: 14px;
+                height: 14px;
+            }
+            a {
+                color: $tertiary-color;
+            }
+        }
+    }
+    &-tagsSkills {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 32px;
+        .tagsSkills__container {
+            display: flex;
+            gap: 16px;
+        }
+    }
+    &-download {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        color: $primary-color;
+        font-size: 20px;
+        background-color: $tertiary-color;
+        padding: 16px 16px;
+        margin-bottom: 16px;
+        width: 65%;
+        border-radius: 32px;
+    }
+}

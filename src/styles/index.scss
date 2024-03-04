@@ -14,3 +14,16 @@ p {
 a {
     text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+strong {
+    font-weight: normal;
+    color: $main-secondary-color;
+}
