@@ -21,7 +21,7 @@ header {
             padding-bottom: 64px;
         }
 
-        @media screen and (max-width: 456px) {
+        @media screen and (max-width: 376px) {
             justify-content: center;
         }
 
@@ -82,7 +82,7 @@ header {
                         }
                     }
                 }
-                @media screen and (max-width: 435px) {
+                @media screen and (max-width: 456px) {
                     display: none;
                 }
             }
