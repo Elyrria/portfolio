@@ -1,7 +1,7 @@
 import "./Home.scss"
 
 function Home() {
-    return <div className="">Blabla</div>
+    return <main className="main__conatainer">Blabla</main> // style CSS de test. À supprimer ensuite
 }
 
 export default Home

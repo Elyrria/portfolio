@@ -1,0 +1,91 @@
+@import "../../styles/globalStyle";
+header {
+    @include globalPaddingLeftRight;
+    background-color: $primary-color;
+    color: $tertiary-color;
+    display: flex;
+    padding-top: 24px;
+    @media screen and (min-width: 769px) {
+        padding-top: 64px;
+    }
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10px;
+        border-bottom: 2px solid $main-secondary-color;
+        padding-bottom: 24px;
+        @media screen and (min-width: 769px) {
+            padding-bottom: 64px;
+        }
+
+        @media screen and (max-width: 456px) {
+            justify-content: center;
+        }
+
+        &-title {
+            display: flex;
+            gap: 8px;
+            .title-element {
+                font-size: 32px;
+                margin: 0;
+                @media screen and (max-width: 768px) {
+                    font-size: 24px;
+                }
+                @media screen and (max-width: 580px) {
+                    font-size: 16px;
+                }
+            }
+        }
+        &-navigation {
+            display: flex;
+            gap: 64px;
+            @media screen and (max-width: 580px) {
+                gap: 32px;
+            }
+
+            .navigation-links {
+                display: flex;
+                gap: 32px;
+                font-size: 24px;
+                @media screen and (max-width: 768px) {
+                    font-size: 16px;
+                }
+                @media screen and (max-width: 580px) {
+                    gap: 16px;
+                }
+                a {
+                    color: $tertiary-color;
+                    text-decoration: none;
+                }
+                .active {
+                    color: $main-secondary-color;
+                }
+            }
+            .navigation-socialLinks {
+                display: flex;
+                align-items: center;
+                gap: 32px;
+                @media screen and (max-width: 580px) {
+                    gap: 16px;
+                }
+                a {
+                    display: flex;
+                    align-items: center;
+                    img {
+                        width: 24px;
+                        cursor: pointer;
+                        @media screen and (max-width: 768px) {
+                            width: 16px;
+                        }
+                    }
+                }
+                @media screen and (max-width: 435px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
