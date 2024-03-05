@@ -1,11 +1,26 @@
 @import "../../../styles/globalStyle";
 .sectionSkills {
+    &__imageContainer {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        margin-bottom: 64px;
+        &-tagClose {
+            position: absolute;
+            right: 0;
+            @media screen and (max-width: 768px) {
+                display: none;
+            }
+        }
+    }
     &__container {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         &-title {
+            margin-bottom: 32px;
             text-align: center;
             @media screen and (max-width: 677px) {
                 max-width: 490px;
@@ -18,6 +33,17 @@
                 $tertiary-color,
                 $main-secondary-color
             );
+        }
+        &-para {
+            text-align: center;
+        }
+        &-skills {
+            margin-top: 64px;
+            display: flex;
+            justify-content: center;
+            max-width: 800px;
+            flex-wrap: wrap;
+            gap: 64px;
         }
     }
 }

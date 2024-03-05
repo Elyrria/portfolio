@@ -1,5 +1,17 @@
 [
     { "frontEnd": ["html", "css", "react", "js"] },
     { "backEnd": ["node.js", "express.js"] },
-    { "language": ["react", "html", "css", "js"] }
+    { "language": ["react", "html", "css", "js"] },
+    {
+        "skills": [
+            "html",
+            "css",
+            "sass",
+            "react",
+            "js",
+            "nodejs",
+            "express",
+            "mongodb"
+        ]
+    }
 ]

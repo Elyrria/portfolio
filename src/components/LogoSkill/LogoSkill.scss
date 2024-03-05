@@ -1,0 +1,42 @@
+@import "../../styles/globalStyle";
+
+.logoSkill__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    &-round {
+        border-radius: 50%;
+        padding: 40px;
+        // width: 64px;
+        // height: 64px;
+    }
+    & .icon-css {
+        background-color: $css;
+    }
+    & .icon-html {
+        background-color: $html;
+    }
+    & .icon-sass {
+        background-color: $sass;
+    }
+    & .icon-react {
+        background-color: $react;
+    }
+    & .icon-js {
+        background-color: $js;
+    }
+    & .icon-nodejs {
+        background-color: $nodejs;
+    }
+    & .icon-mongodb {
+        background-color: $mongoDB;
+    }
+    & .icon-express {
+        background-color: $main-secondary-color;
+    }
+    &-para {
+        font-size: 32px;
+    }
+}
