@@ -3,7 +3,7 @@ import scrollMouse from "../../../assets/svg/scroll-mouse.svg"
 import "./Contact.scss"
 function Contact() {
     return (
-        <section className="sectionContact">
+        <section id="contact" className="sectionContact">
             <div className="sectionContact__container">
                 <div className="sectionContact__container-scrollSvg">
                     <img src={scrollMouse} alt="Scroll mouse" />

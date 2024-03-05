@@ -61,7 +61,7 @@ function Introduction() {
                         </div>
                         <div className="presentation__container-bottom">
                             {/* /!!Penser à ajouter le lien d'ancre qui regirige vers le formulaire de contacte */}
-                            <a href="#">Parlons-en</a>
+                            <a href="#contact">Parlons-en</a>
                             <div className="letter__container">
                                 <img src={letter} alt="Icone lettre" />
                             </div>
