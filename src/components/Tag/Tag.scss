@@ -2,10 +2,11 @@
 
 .tags__container-tag {
     display: inline-block;
-    // margin-bottom: 16px;
-    // margin-top: 16px;
     padding: 2px 8px;
     border-radius: 15px;
     background-color: $main-secondary-color;
     color: $primary-color;
+    @media screen and (max-width: 390px) {
+        font-size: 12px;
+    }
 }
