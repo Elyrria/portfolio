@@ -13,6 +13,11 @@ p {
 }
 a {
     text-decoration: none;
+    color: $main-secondary-color;
+    &:hover {
+        opacity: 0.5;
+        text-decoration: underline;
+    }
 }
 h1,
 h2,
@@ -23,7 +28,9 @@ h5 {
     font-family: "Ubuntu", sans-serif;
 }
 
-strong {
+strong,
+em {
     font-weight: normal;
+    font-style: normal;
     color: $main-secondary-color;
 }

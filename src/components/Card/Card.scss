@@ -42,10 +42,14 @@
             a {
                 color: $tertiary-color;
             }
+            a[href="https://www.google.com/maps/place/Caen"], {
+
+            }
         }
     }
     &-tagsSkills {
         display: flex;
+        width: 100%;
         flex-direction: column;
         gap: 16px;
         margin-bottom: 32px;

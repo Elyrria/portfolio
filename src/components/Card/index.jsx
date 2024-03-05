@@ -17,6 +17,7 @@ function Card() {
     const stackBackEndUpperCase = stackBackEnd.map((stack) =>
         stack.toUpperCase(),
     )
+    //! Amélioration possible pour la responsive (désactiver en dessous de 390px les textes liens et laisser les icones cliquable)
     return (
         <div className="card__container">
             <div className="card__container-profilPicture">

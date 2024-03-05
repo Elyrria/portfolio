@@ -30,9 +30,9 @@ function Introduction() {
                                 <div className="balise__rightSide">
                                     <h3>
                                         Hey <br /> Je suis{" "}
-                                        <span className="author">Quentin</span>,
+                                        <em>Quentin</em>,
                                         <br />
-                                        Développeur Web
+                                        <strong className="tagStrong-normal">Développeur Web</strong>
                                     </h3>
                                     <div className="balise__rightSide-h1Close">
                                         <img

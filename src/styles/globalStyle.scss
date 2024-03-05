@@ -36,3 +36,7 @@ $bootstrap: #602c50;
 @mixin globalMarginBottom {
     margin-bottom: 64px;
 }
+
+@mixin paraPaddingLeft {
+    padding-left: 25px;
+}
