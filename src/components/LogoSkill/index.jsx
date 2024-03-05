@@ -9,7 +9,6 @@ import iconEXPRESS from "../../assets/svg/icon-express.svg"
 import iconMONGODB from "../../assets/svg/icon-mongodb.svg"
 
 function LogoSkill({ name }) {
-    console.log(name)
     const skills = [
         { html: { color: "#e54f26", icon: iconHTML } },
         { css: { color: "#0c73b8", icon: iconCSS } },

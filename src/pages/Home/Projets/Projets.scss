@@ -1,16 +1,38 @@
 @import "../../../styles/globalStyle";
 .sectionProjets {
+    position: relative;
+    // height: 1100px;
+    &__backgroundSection-rotate {
+        @include backgroundSection();
+        transform: rotate(180deg);
+    }
+
     &__container {
+        z-index: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        &-imageContainer {
+            margin-top: 128px;
+            margin-bottom: 64px;
+            @media screen and (max-width: 768px) {
+                margin-top: 64px;
+            }
+        }
         &-title {
             max-width: 440px;
+            margin-bottom: 32px;
             @include specifiqueTitileSection(
                 $main-secondary-color,
                 $tertiary-color
             );
+        }
+        &-para {
+            text-align: center;
+        }
+        &-carousel {
+            height: 500px;
         }
     }
 }

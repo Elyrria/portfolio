@@ -5,7 +5,6 @@ import baliseClose from "../../../assets/svg/balise-fermante.svg"
 import scrollMouse from "../../../assets/svg/scroll-mouse.svg"
 function Skills() {
     const skills = skillsArray[3].skills
-    console.log(skills)
     return (
         <section className="sectionSkills">
             <div className="sectionSkills__imageContainer">
@@ -27,8 +26,8 @@ function Skills() {
                     assouvir cette soif de savoir.
                 </p>
                 <div className="sectionSkills__container-skills">
-                    {skills.map((skill) => (
-                        <LogoSkill name={skill} />
+                    {skills.map((skill, index) => (
+                        <LogoSkill key={skill + index} name={skill} />
                     ))}
                 </div>
             </div>

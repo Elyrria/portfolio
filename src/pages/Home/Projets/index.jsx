@@ -1,14 +1,24 @@
+import backgroundSection from "../../../assets/fond_section.png"
+import scrollMouse from "../../../assets/svg/scroll-mouse.svg"
 import "./Projets.scss"
 function Projets() {
     return (
         <section className="sectionProjets">
+            <img
+                className="sectionProjets__backgroundSection-rotate "
+                src={backgroundSection}
+                alt="Fond de section about"
+            />
             <div className="sectionProjets__container">
+                <div className="sectionProjets__container-imageContainer">
+                    <img src={scrollMouse} alt="Scroll mouse" />
+                </div>
                 <h2 className="sectionProjets__container-title">Mes Projets</h2>
-                <p>
+                <p className="sectionProjets__container-para">
                     Au cours de ma précédente formation j’ai eu le plaisir de
                     pourvoir travailler sur les projets présentés ci-dessous
                 </p>
-                <div></div>
+                <div className="sectionProjets__container-carousel"></div>
             </div>
         </section>
     )

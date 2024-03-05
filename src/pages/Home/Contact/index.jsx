@@ -25,6 +25,7 @@ function Contact() {
                                 id="name"
                                 name="name"
                                 placeholder="Nom"
+                                autoComplete="on"
                             />
                         </div>
                         <div className="form__inputs-style">
@@ -35,6 +36,7 @@ function Contact() {
                                 id="email"
                                 name="email"
                                 placeholder="Email"
+                                autoComplete="on"
                             />
                         </div>
                     </div>
