@@ -43,3 +43,22 @@ $bootstrap: #602c50;
         padding-left: 0;
     }
 }
+
+@mixin backgroundSection {
+    width: 100vw;
+    position: absolute;
+    height: 100%;
+    opacity: 0.6;
+}
+
+@mixin specifiqueTitileSection($border-color, $text-color) {
+    font-size: 64px;
+    padding: 16px 40px;
+    border-radius: 40px 0px;
+    border: 4px solid $border-color;
+    background-color: $primary-color;
+    color: $text-color;
+    @media screen and (max-width: 545px) {
+        font-size: 32px;
+    }
+}

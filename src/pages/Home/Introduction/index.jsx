@@ -18,7 +18,7 @@ function Introduction() {
     const thirdObject = stack[2]
 
     return (
-        <section>
+        <section className="sectionIntroduction">
             <h2 className="h1 introduction__title">Portfolio</h2>
             <div className="introduction__container">
                 <Card />
@@ -29,10 +29,11 @@ function Introduction() {
                                 <img src={h1Open} alt="Balise h1 ouvrante" />
                                 <div className="balise__rightSide">
                                     <h3>
-                                        Hey <br /> Je suis{" "}
-                                        <em>Quentin</em>,
+                                        Hey <br /> Je suis <em>Quentin</em>,
                                         <br />
-                                        <strong className="tagStrong-normal">Développeur Web</strong>
+                                        <strong className="tagStrong-normal">
+                                            Développeur Web
+                                        </strong>
                                     </h3>
                                     <div className="balise__rightSide-h1Close">
                                         <img

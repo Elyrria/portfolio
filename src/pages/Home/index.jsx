@@ -1,5 +1,8 @@
 import Introduction from "./Introduction"
 import About from "./About"
+import Skills from "./Skills"
+import Contact from "./Contact"
+import Projets from "./Projets"
 import "./Home.scss"
 
 function Home() {
@@ -7,8 +10,11 @@ function Home() {
         <main className="main__conatainer">
             <Introduction />
             <About />
+            <Skills />
+            <Projets />
+            <Contact />
         </main>
-    ) // style CSS de test. À supprimer ensuite
+    )
 }
 
 export default Home

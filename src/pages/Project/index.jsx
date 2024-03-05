@@ -1,7 +1,7 @@
 function Project() {
     return (
         <main>
-            <p>Bonjour</p>
+          <div>Mes projets 🤷‍♂️</div>
         </main>
     )
 }
