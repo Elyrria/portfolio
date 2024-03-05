@@ -66,8 +66,10 @@
                     font-size: 20px;
                     gap: 16px;
                     padding: 16px 32px;
+                    border: none;
                     border-radius: 32px;
                     background-color: $main-secondary-color;
+                    color: $primary-color;
                     &:active {
                         opacity: 0.5;
                     }
