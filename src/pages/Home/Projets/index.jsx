@@ -1,5 +1,6 @@
 import backgroundSection from "../../../assets/fond_section.png"
 import scrollMouse from "../../../assets/svg/scroll-mouse.svg"
+import CarouselBootstrap from "../../../components/Carousel/"
 import "./Projets.scss"
 function Projets() {
     return (
@@ -18,7 +19,11 @@ function Projets() {
                     Au cours de ma précédente formation j’ai eu le plaisir de
                     pourvoir travailler sur les projets présentés ci-dessous
                 </p>
-                <div className="sectionProjets__container-carousel"></div>
+                <div className="sectionProjets__container-carousel">
+                    <div className="carouselBootstrap">
+                        <CarouselBootstrap />
+                    </div>
+                </div>
             </div>
         </section>
     )

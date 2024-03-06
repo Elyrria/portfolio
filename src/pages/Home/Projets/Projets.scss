@@ -1,7 +1,6 @@
 @import "../../../styles/globalStyle";
 .sectionProjets {
     position: relative;
-    // height: 1100px;
     &__backgroundSection-rotate {
         @include backgroundSection();
         transform: rotate(180deg);
@@ -13,9 +12,14 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-bottom: 128px;
+        @media screen and (max-width: 768px) {
+         @include globalMarginBottom();
+        }
+
         &-imageContainer {
+            @include globalMarginBottom();
             margin-top: 128px;
-            margin-bottom: 64px;
             @media screen and (max-width: 768px) {
                 margin-top: 64px;
             }
@@ -30,9 +34,16 @@
         }
         &-para {
             text-align: center;
+            width: 100%;
         }
         &-carousel {
-            height: 500px;
+            margin-top: 64px;
+            .carouselBootstrap {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
         }
     }
 }
