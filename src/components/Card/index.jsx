@@ -75,10 +75,9 @@ function Card() {
                     ))}
                 </div>
             </div>
-            {/* Je n'arrive pas à télécharger le CV  */}
             <a
                 className="card__container-download"
-                href="../../assets/download/Quentin_Dumon_CV.pdf"
+                href="./download/Quentin_Dumon_CV.pdf"
                 download="Quentin_Dumon_CV.pdf"
             >
                 Mon CV <img src={iconDownload} alt="Icone téléchargement" />

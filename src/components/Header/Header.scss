@@ -20,12 +20,13 @@ header {
             padding-bottom: 64px;
         }
 
-        @media screen and (max-width: 376px) {
+        @media screen and (max-width: 601px) {
             justify-content: center;
         }
 
         &-title {
             display: flex;
+            align-items: center;
             gap: 8px;
             .title-element {
                 font-family: "IBM Plex Mono", monospace;
@@ -33,9 +34,6 @@ header {
                 margin: 0;
                 @media screen and (max-width: 768px) {
                     font-size: 24px;
-                }
-                @media screen and (max-width: 580px) {
-                    font-size: 16px;
                 }
             }
         }

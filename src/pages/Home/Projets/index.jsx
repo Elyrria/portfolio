@@ -16,8 +16,7 @@ function Projets() {
                 </div>
                 <h2 className="sectionProjets__container-title">Mes Projets</h2>
                 <p className="sectionProjets__container-para">
-                    Au cours de ma précédente formation j’ai eu le plaisir de
-                    pourvoir travailler sur les projets présentés ci-dessous
+                    Au cours de ma précédente formation, j’ai eu le plaisir de travailler sur les projets présentés ci-dessous :
                 </p>
                 <div className="sectionProjets__container-carousel">
                     <div className="carouselBootstrap">

@@ -9,11 +9,12 @@ function Header() {
         <header>
             <div className="header__container">
                 <div className="header__container-title">
-                    <img
-                        className="title-element"
-                        src={tagC}
-                        alt="balise code fermante"
-                    />
+                    <div className="title-svg">
+                        <img
+                            src={tagC}
+                            alt="balise code fermante"
+                        />
+                    </div>
                     <h1 className="title-element">QuentinDumon</h1>
                 </div>
                 <nav className="header__container-navigation">
