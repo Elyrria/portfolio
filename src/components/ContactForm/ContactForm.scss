@@ -11,6 +11,10 @@
                 display: flex;
                 gap: 128px;
                 width: 100%;
+                @media screen and (max-width: 540px) {
+                    flex-direction: column;
+                    gap: 64px;
+                }
                 &-style {
                     display: flex;
                     flex-direction: column;
