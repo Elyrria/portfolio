@@ -19,7 +19,7 @@ function Header() {
                 </div>
                 <nav className="header__container-navigation">
                     <div className="navigation-links">
-                        <NavLink to="/">Accueil</NavLink>
+                        <NavLink to="/portfolio">Accueil</NavLink>
                         <NavLink to="/projet">Projet</NavLink>
                     </div>
                     <div className="navigation-socialLinks">
