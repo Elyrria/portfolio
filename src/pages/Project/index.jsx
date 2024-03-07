@@ -2,7 +2,7 @@ import "./Project.scss"
 function Project() {
     return (
         <main>
-            <div>Mes projets 🤷‍♂️</div>
+            <div className="inProgress">Page en construction 🚧</div>
         </main>
     )
 }

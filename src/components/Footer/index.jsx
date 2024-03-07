@@ -30,7 +30,7 @@ function Footer() {
                             </a>
                         </div>
                     </div>
-                    <p>
+                    <p className="footer__containerTop-credit">
                         Design by
                         <a
                             className="footer__containerTop-authorCredit"

@@ -10,4 +10,16 @@
     @media screen and (max-width: 768px) {
         gap: 64px;
     }
+
+    .custom-toast {
+        border: 3px solid $tertiary-color;
+        background-color: $primary-color;
+        color: $main-secondary-color;
+        text-align: center;
+        font-size: 18px;
+        font-family: "IBM Plex Mono", monospace;
+    }
+    .custom-progress {
+        background: $main-secondary-color;
+    }
 }

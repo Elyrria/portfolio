@@ -1,6 +1,10 @@
 @import "../../styles/globalStyle";
 
 .footer {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;;
+    width: 100%;
     background-color: $primary-color;
     border-top: 1px solid rgba(255, 194, 137, 0.3);
     padding: 16px 0;
@@ -10,17 +14,33 @@
 
     .footer__containerTop {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
         margin-bottom: 16px;
-        text-align: center;
         @media screen and (max-width: 850px) {
             flex-direction: column;
+            align-items: center;
             gap: 16px;
+        }
+        &-copyright,
+        &-credit {
+            width: 33%;
+        }
+        &-copyright {
+            text-align: left;
+            @media screen and (max-width: 850px) {
+                text-align: center;
+            }
+        }
+        &-credit {
+            text-align: right;
+            @media screen and (max-width: 850px) {
+                text-align: center;
+            }
         }
         &-socialLinks {
             display: flex;
+            justify-content: center;
             gap: 32px;
+            width: 33%;
             & .socialLinks__container {
                 display: flex;
                 justify-content: center;

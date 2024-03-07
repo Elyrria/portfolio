@@ -1,0 +1,25 @@
+@import "../../styles/globalStyle";
+
+.error__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include globalPaddingLeftRight();
+    @include globalPaddingTopBottom();
+    img {
+        width: 75%;
+    }
+    p {
+        @include globalMarginBottom();
+        color: $main-secondary-color;
+        font-size: 18px;
+        text-align: center;
+    }
+    a {
+        @include globalMarginBottom();
+        color: $tertiary-color;
+        font-size: 24px;
+        text-align: center;
+    }
+}

@@ -4,8 +4,20 @@ body {
     margin: 0;
     font-family: "IBM Plex Mono", monospace;
     color: $tertiary-color;
+    background-color: $primary-color;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    min-width: 300px;
+    max-width: 1920px;
+    margin: auto;
+    height: 100vh;
 }
 
 p {

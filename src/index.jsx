@@ -6,18 +6,21 @@ import Error from "./pages/Error"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { DataActiveToastBar } from "./utils/context/ActiveToastBar"
 import "./styles/index.scss"
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
     <React.StrictMode>
         <Router>
-            <Header />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/projet/:id" element={<Project />} />
-                <Route path="*" element={<Error />} />
-            </Routes>
+            <DataActiveToastBar>
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/projet" element={<Project />} />
+                    <Route path="*" element={<Error />} />
+                </Routes>
+            </DataActiveToastBar>
             <Footer />
         </Router>
     </React.StrictMode>,
