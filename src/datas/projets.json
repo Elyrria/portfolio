@@ -4,10 +4,10 @@
         "name": "Booki",
         "scenario": "En tant que développer web en alternance pour la start-up Booki, j'ai du réaliser l'interface du site en HTML et CSS en suivant la maquette Figma, les spécifications techniques et fonctionnelles.",
         "skillsAssessed": [
-            "Implémenter une interface responsive avec HTML et CSS",
-            "Intégrer du contenu conformément à une maquette avec HTML et CSS",
-            "Versionner son projet avec Git et Github",
-            "Installer un environnement de développement Front-End"
+            "Implémenter une interface responsive avec HTML et CSS ;",
+            "Intégrer du contenu conformément à une maquette avec HTML et CSS ;",
+            "Versionner son projet avec Git et Github ;",
+            "Installer un environnement de développement Front-End."
         ],
         "description": "Dans le cadre de ce projet, j'ai utilisé deux bibliothèques externes : Font Awesome pour les icônes et Google Fonts pour les polices. J'ai reproduit l'intégralité du design du site en respectant les différents breakpoints pour les appareils (smartphone, tablette, desktop). J'ai également mis en place de bonnes pratiques telles que l'utilisation de la sémantique (balises h1, p, section, etc.) et la validation du code avec le validateur W3C. Une contrainte majeure était l'impossibilité d'utiliser des frameworks CSS (comme Bootstrap ou Tailwind), un préprocesseur (tel que SASS), ou tout autre langage.",
         "skills": ["HTML", "CSS"],
@@ -17,11 +17,11 @@
     {
         "id": "1f5b49d40ce5",
         "name": "Sophie Bluel",
-        "scenario": "En tant que développeur Front-End pour l'agence ArchiWebos, j'ai été envoyé en renfort d'une équipe qui travaille sur la conception du site portfolio d'un architecte d'intérieur",
+        "scenario": "En tant que développeur Front-End pour l'agence ArchiWebos, j'ai été envoyé en renfort d'une équipe qui travaille sur la conception du site portfolio d'un architecte d'intérieur.",
         "skillsAssessed": [
-            "Gérer les événements utilisateurs avec JavaScript",
-            "Manipuler les éléments du DOM avec JavaScript",
-            "Récupérer les données utilisateurs avec JavaScript via des formulaires"
+            "Gérer les événements utilisateurs avec JavaScript ;",
+            "Manipuler les éléments du DOM avec JavaScript ;",
+            "Récupérer les données utilisateurs avec JavaScript via des formulaires."
         ],
         "description": "Dans le cadre de ce projet, j'ai eu l'occasion de découvrir JavaScript et son interaction avec le DOM. J'ai mis en place diverses fonctionnalités telles qu'une boîte modale avec des toasts/snackbar pour l'ajout ou la suppression d'un projet, des requêtes Fetch via une API, ainsi qu'un sélect personnalisé. De plus, j'ai configuré la connexion utilisateur en intégrant un mécanisme d'expiration de session pour assurer une déconnexion automatique en cas d'inactivité.",
         "skills": ["HTML", "CSS", "JS"],
@@ -33,11 +33,11 @@
         "name": "Qwenta",
         "scenario": "En tant que développeur Front-End au sein de l'agence Webgencia, la mission qui m'a été confié a été de planifier le projet de développement du site Menu Make de l'agence Qwenta.",
         "skillsAssessed": [
-            "Découper une fonctionnalité en tâches pour préparer le développement",
-            "Mettre en place une méthode de veille technologique",
-            "Présenter la solution technique",
-            "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
-            "Suivre le déroulement du projet grâce à un outil de gestion de projet"
+            "Découper une fonctionnalité en tâches pour préparer le développement ;",
+            "Mettre en place une méthode de veille technologique ;",
+            "Présenter la solution technique ;",
+            "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels ;",
+            "Suivre le déroulement du projet grâce à un outil de gestion de projet."
         ],
         "description": "Dans le cadre de ce projet, j'ai dû effectuer une veille informationnelle. Pour organiser et partager cette veille, j'ai utilisé l'outil Wakelet. Suite à cette veille, j'ai rédigé les spécifications techniques du projet. Pour découper les user stories en plusieurs tâches, j'ai opté pour l'utilisation de l'outil Trello. En outre, j'ai décidé de mettre en place ce projet en suivant une approche agile, en l'occurrence la méthode SCRUM.",
         "skills": ["Wakelet", "Keynote", "Trello", "Kanban", "Scrum"],
@@ -48,9 +48,9 @@
         "name": "Nina Carducci",
         "scenario": "En tant que développeur freelance, j'ai décidé de proposer mes services d'optimisation SEO à la photographe Nina Carducci. Nina a répondu positivement à ma demande et m’a fait une liste de ses besoins.",
         "skillsAssessed": [
-            "Optimiser les performances d’un site web",
-            "Débugger un site web grâce aux Chrome DevTools",
-            "Rédiger un cahier de recettes pour tester un site"
+            "Optimiser les performances d’un site web ;",
+            "Débugger un site web grâce aux Chrome DevTools ;",
+            "Rédiger un cahier de recettes pour tester un site."
         ],
         "description": "Dans le cadre de ce projet, j'ai dû déboguer la navigation du carrousel et les filtres de la galerie du site de Nina en utilisant les DevTools de Chrome. Par la suite, pour optimiser les performances du site, j'ai travaillé sur l'optimisation des images et la structure du code (sémantique). En ce qui concerne le SEO, j'ai réalisé une étude des mots-clés, mis en place le référencement local avec Schéma.org, et ajouté des méta-tags pour les réseaux sociaux. Enfin, j'ai apporté quelques modifications pour améliorer l'accessibilité du site, en ajoutant des aria-labels et en corrigeant les contrastes qui ne respectaient pas les recommandations du WAI.",
         "skills": ["Lighouse", "OpenGraph", "Schema.org", "TwitterCard", "SEO"],
@@ -62,13 +62,13 @@
         "name": "Kasa",
         "scenario": "En tant que développeur Front-End en freelance, l'agence de location immobilière me recrute pour développer leur nouvelle plateforme web. Le site de Kasa a été codé il ya 10 ans en ASP.NET avec un code legacy important. la CTO a donc lancé une refonte totale pour passer à une stack complète en JavaScrip avec NodeJS et React.",
         "skillsAssessed": [
-            "Configurer la navigation entre les pages de l'application avec React Router",
-            "Développer des éléments de l'interface d'un site web grâce à des composants React",
-            "Mettre en œuvre des animations CSS",
-            "Développer une interface web avec Sass",
-            "Initialiser une application avec Create React App"
+            "Configurer la navigation entre les pages de l'application avec React Router ;",
+            "Développer des éléments de l'interface d'un site web grâce à des composants React ;",
+            "Mettre en œuvre des animations CSS ;",
+            "Développer une interface web avec Sass ;",
+            "Initialiser une application avec Create React App."
         ],
-        "description": "Dans le cadre de ce projet, j'ai dû respecter les directives de codage de Kasa, qui comprenaient à la fois des contraintes fonctionnelles et techniques. J'ai été autorisé à utiliser uniquement une seule bibliothèque externe, à savoir React-Router. De plus, il m'a été demandé de développer toute l'interface en SASS. Pour cela, j'ai découpé les éléments en composants modulables et réutilisables, et j'ai mis en place une structure logique des différents fichiers. L'utilisation de React-Router m'a permis de mettre en place les différentes routes de navigation de l'application",
+        "description": "Dans le cadre de ce projet, j'ai dû respecter les directives de codage de Kasa, qui comprenaient à la fois des contraintes fonctionnelles et techniques. J'ai été autorisé à utiliser uniquement une seule bibliothèque externe, à savoir React-Router. De plus, il m'a été demandé de développer toute l'interface en SASS. Pour cela, j'ai découpé les éléments en composants modulables et réutilisables, et j'ai mis en place une structure logique des différents fichiers. L'utilisation de React-Router m'a permis de mettre en place les différentes routes de navigation de l'application.",
         "skills": ["HTML", "CSS", "SASS", "REACT"],
         "link": "https://github.com/Elyrria/Kasa-app",
         "difficultys": "La principale difficulté que j'ai rencontrée a été de gérer la redirection vers la page d'erreur lors de la modification de l'URL d'un hébergement passé en paramètre. Pour résoudre cette problématique, j'ai mis en place des fonctions de validation de l'identifiant de l'hébergement, vérifiant si celui-ci est bien contenu dans le tableau des hébergements. Cette fonction de vérification est appelée à chaque rendu de la page ou dès que l'URL subit une modification."
@@ -78,9 +78,9 @@
         "name": "Mon Vieux Grimoire",
         "scenario": "En tant que développeur Back-End freelance dans la région de Lille, Kévin, un développeur Front-End, m'a contacté pour mutualiser nos compétences sur un projet qui lui a été proposé. La chaîne de librairie lilloise \"Le Vieux Grimoire\" souhaite développer son propre site de notation de livres, \"Mon Vieux Grimoire\". Ma mission dans ce projet est de développer le Back-End de leur site.",
         "skillsAssessed": [
-            "Implémenter un modèle logique de données conformément à la réglementation",
-            "Mettre en œuvre des opérations CRUD de manière sécurisée",
-            "Stocker des données de manière sécurisée"
+            "Implémenter un modèle logique de données conformément à la réglementation ;",
+            "Mettre en œuvre des opérations CRUD de manière sécurisée ;",
+            "Stocker des données de manière sécurisée."
         ],
         "description": "Dans le cadre de ce projet, j'ai dû créer un serveur avec Node.js, mettre en place une API avec Express.js, utiliser le package Mongoose pour faciliter la création des schémas de données et simplifier la connexion à la base de données NoSQL, MongoDB. J'ai également mis en place l'ajout d'un nouvel utilisateur avec le hachage (bcrypt) de son mot de passe pour l'enregistrer dans la base de données. De plus, j'ai intégré un middleware pour gérer l'authentification (JWT) de l'utilisateur sur les routes où cela était nécessaire. Une des attentes de ce projet était de prendre en compte la taille des images. Pour ce faire j'ai mis en place un configuraton de multer où j'ai utilisé un autre depancdance, Sharp.",
         "skills": ["NODE.JS", "EXPRESS.JS", "MONGODB"],
