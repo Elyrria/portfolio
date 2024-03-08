@@ -2,7 +2,7 @@
     {
         "id": "9df1591dda02",
         "name": "Booki",
-        "scenario": "En tant que développer web en alternance pour la start-up Booki, j'ai du réaliser l'intérface du site en HTML et CSS en suivant la maquette Figma, les spécifications téchniques et fonctionnelles.",
+        "scenario": "En tant que développer web en alternance pour la start-up Booki, j'ai du réaliser l'interface du site en HTML et CSS en suivant la maquette Figma, les spécifications techniques et fonctionnelles.",
         "skillsAssessed": [
             "Implémenter une interface responsive avec HTML et CSS",
             "Intégrer du contenu conformément à une maquette avec HTML et CSS",
@@ -12,7 +12,7 @@
         "description": "Dans le cadre de ce projet, j'ai utilisé deux bibliothèques externes : Font Awesome pour les icônes et Google Fonts pour les polices. J'ai reproduit l'intégralité du design du site en respectant les différents breakpoints pour les appareils (smartphone, tablette, desktop). J'ai également mis en place de bonnes pratiques telles que l'utilisation de la sémantique (balises h1, p, section, etc.) et la validation du code avec le validateur W3C. Une contrainte majeure était l'impossibilité d'utiliser des frameworks CSS (comme Bootstrap ou Tailwind), un préprocesseur (tel que SASS), ou tout autre langage.",
         "skills": ["HTML", "CSS"],
         "link": "https://github.com/Elyrria/Booki_v1",
-        "difficultys": "La principale problématique que j'ai pu rencontrer est la réalisation des cartes hébergements. Afin de pallier cette problématique, je me suis documenté sur la conception des cartes et discuter avec la communauté d'OpenClassrooms sur Slack."
+        "difficultys": "La principale problématique que j'ai pu rencontrer est la réalisation des cartes hébergements. Afin de pallier cette problématique, je me suis documenté sur la conception des cartes et j’ai discuté avec la communauté d'OpenClassrooms sur Slack."
     },
     {
         "id": "1f5b49d40ce5",
@@ -33,7 +33,7 @@
         "name": "Qwenta",
         "scenario": "En tant que développeur Front-End au sein de l'agence Webgencia, la mission qui m'a été confié a été de planifier le projet de développement du site Menu Make de l'agence Qwenta.",
         "skillsAssessed": [
-            "Découper une fonctionnalités en tâches pour préparer le développement",
+            "Découper une fonctionnalité en tâches pour préparer le développement",
             "Mettre en place une méthode de veille technologique",
             "Présenter la solution technique",
             "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
@@ -41,17 +41,16 @@
         ],
         "description": "Dans le cadre de ce projet, j'ai dû effectuer une veille informationnelle. Pour organiser et partager cette veille, j'ai utilisé l'outil Wakelet. Suite à cette veille, j'ai rédigé les spécifications techniques du projet. Pour découper les user stories en plusieurs tâches, j'ai opté pour l'utilisation de l'outil Trello. En outre, j'ai décidé de mettre en place ce projet en suivant une approche agile, en l'occurrence la méthode SCRUM.",
         "skills": ["Wakelet", "Keynote", "Trello", "Kanban", "Scrum"],
-        "link": "",
         "difficultys": "La principale difficulté que j'ai rencontrée a été de devoir préparer plusieurs outils de présentation et de synthétiser le tout en un seul outil pour la présentation au client. Pour surmonter cette difficulté, j'ai utilisé un logiciel de création de présentations, Keynote, qui m'a permis d'intégrer et de fusionner les différents contenus de manière efficace. Cette approche m'a permis de présenter au mentor évaluateur une vision globale et cohérente du projet."
     },
     {
         "id": "277a478bf41d",
         "name": "Nina Carducci",
-        "scenario": "En tant que développeur freelance, j'ai décidé de proposer mes services d'optimisation SEO à la photographe Nina Carducci. Nina a répondu positivement à ma demande et ma fait une liste de ces besoins.",
+        "scenario": "En tant que développeur freelance, j'ai décidé de proposer mes services d'optimisation SEO à la photographe Nina Carducci. Nina a répondu positivement à ma demande et m’a fait une liste de ses besoins.",
         "skillsAssessed": [
             "Optimiser les performances d’un site web",
             "Débugger un site web grâce aux Chrome DevTools",
-            "Rédiger un cahier de recette pour tester un site"
+            "Rédiger un cahier de recettes pour tester un site"
         ],
         "description": "Dans le cadre de ce projet, j'ai dû déboguer la navigation du carrousel et les filtres de la galerie du site de Nina en utilisant les DevTools de Chrome. Par la suite, pour optimiser les performances du site, j'ai travaillé sur l'optimisation des images et la structure du code (sémantique). En ce qui concerne le SEO, j'ai réalisé une étude des mots-clés, mis en place le référencement local avec Schéma.org, et ajouté des méta-tags pour les réseaux sociaux. Enfin, j'ai apporté quelques modifications pour améliorer l'accessibilité du site, en ajoutant des aria-labels et en corrigeant les contrastes qui ne respectaient pas les recommandations du WAI.",
         "skills": ["Lighouse", "OpenGraph", "Schema.org", "TwitterCard", "SEO"],
@@ -61,7 +60,7 @@
     {
         "id": "5f708481c2e0",
         "name": "Kasa",
-        "scenario": "En tant que développeur Front-End en freelance, l'agence de location imobilière me recrute pour développer leur nouvelle plateforme web. Le site de Kasa a été codé il ya 10 ans en ASP.NET avec un code legacy important. la CTO à donc lancé une refonte totale pour passer à une stack complète en JavaScrip avec NodeJS et React.",
+        "scenario": "En tant que développeur Front-End en freelance, l'agence de location immobilière me recrute pour développer leur nouvelle plateforme web. Le site de Kasa a été codé il ya 10 ans en ASP.NET avec un code legacy important. la CTO a donc lancé une refonte totale pour passer à une stack complète en JavaScrip avec NodeJS et React.",
         "skillsAssessed": [
             "Configurer la navigation entre les pages de l'application avec React Router",
             "Développer des éléments de l'interface d'un site web grâce à des composants React",
@@ -83,7 +82,7 @@
             "Mettre en œuvre des opérations CRUD de manière sécurisée",
             "Stocker des données de manière sécurisée"
         ],
-        "description": "Dans le cadre de ce projet, j'ai dû créer un serveur avec Node.js, mettre en place une API avec Express.js, utiliser le package Mongoose pour faciliter la création des schémas de données et simplifier la connexion à la base de données NoSQL, MongoDB. J'ai également mis en place l'ajout d'un nouvel utilisateur avec le hachage (bcrypt) de son mot de passe pour l'enregistrer dans la base de données. De plus, j'ai intégré un middleware pour gérer l'authentification (JWT) de l'utilisateur sur les routes où cela était nécessaire. Une des attentes de ce projet était de prendre en compte la taille des images. Pour ce faire j'ai mi en place un configuraton de multer ou j'ai utiliser un autre depancdance, Sharp.",
+        "description": "Dans le cadre de ce projet, j'ai dû créer un serveur avec Node.js, mettre en place une API avec Express.js, utiliser le package Mongoose pour faciliter la création des schémas de données et simplifier la connexion à la base de données NoSQL, MongoDB. J'ai également mis en place l'ajout d'un nouvel utilisateur avec le hachage (bcrypt) de son mot de passe pour l'enregistrer dans la base de données. De plus, j'ai intégré un middleware pour gérer l'authentification (JWT) de l'utilisateur sur les routes où cela était nécessaire. Une des attentes de ce projet était de prendre en compte la taille des images. Pour ce faire j'ai mis en place un configuraton de multer où j'ai utilisé un autre depancdance, Sharp.",
         "skills": ["NODE.JS", "EXPRESS.JS", "MONGODB"],
         "link": "https://github.com/Elyrria/Mon-Vieux-Grimoire",
         "difficultys": "L'ajout d'une image en tant que ressource statique et son optimisation ont constitué les plus grands défis de ce projet pour moi. En effet, j'ai rencontré des difficultés à configurer et à comprendre le fonctionnement des dépendances Multer et Sharp. Pour résoudre cette problématique, j'ai consulté la documentation, lu des articles, et j'ai utilisé ChatGPT pour comparer ce que j'ai appris avec ses explications."

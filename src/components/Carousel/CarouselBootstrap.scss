@@ -44,31 +44,14 @@
         display: flex;
         bottom: 0;
         a {
-            width: 100%;
-            font-weight: 500;
-            font-size: 20px;
-            text-decoration: underline;
-            text-decoration-color: $tertiary-color;
-            text-decoration-thickness: 2px; /* Épaisseur de l'underline */
-            text-underline-offset: 10px; /* Espacement entre le texte et l'underline */
-            @media screen and (max-width: 460px) {
-                font-size: 16px;
-            }
-            @media screen and (max-width: 350px) {
-                font-size: 12px;
-            }
+            @include specialLink();
         }
         img {
-            position: relative;
-            width: 16px;
-            height: 16px;
-            top: 20px;
-            left: 10px;
-            @media screen and (max-width: 768px) {
-                right: 20px;
-            }
-            @media screen and (max-width: 390px) {
-            }
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: -25px;
+            top: 15px;
         }
     }
 }

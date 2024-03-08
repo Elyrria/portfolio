@@ -13,7 +13,7 @@ function Project() {
                 {projects.map((project, index) => (
                     <ProjectSection
                         key={project.id}
-                        projet={project}
+                        project={project}
                         index={index}
                     />
                 ))}

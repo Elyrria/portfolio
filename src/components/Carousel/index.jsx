@@ -32,8 +32,10 @@ function CarouselBootstrap() {
             </Carousel>
             <Carousel.Caption>
                 <div className="carouselCaptation_subContainer">
-                    <Link to="/projets">Plus d'informations</Link>
-                    <img src={mousePointer} alt="Pointer souris" />
+                    <Link to="/projets">
+                        Plus d'informations{" "}
+                        <img src={mousePointer} alt="Pointer souris" />
+                    </Link>
                 </div>
             </Carousel.Caption>
         </div>

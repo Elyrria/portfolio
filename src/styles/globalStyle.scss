@@ -1,6 +1,6 @@
 // Colors
 $primary-color: #1c3b4f;
-$main-secondary-color: #F58439;
+$main-secondary-color: #f58439;
 $secondary-color: #ffc289;
 $tertiary-color: #ffffff;
 $bg-color: #1a1e23;
@@ -37,6 +37,13 @@ $bootstrap: #602c50;
     margin-bottom: 64px;
 }
 
+@mixin marginBottomResponsive {
+    margin-bottom: 128px;
+    @media screen and (max-width: 786px) {
+        margin-bottom: 64px;
+    }
+}
+
 @mixin paraPaddingLeft {
     padding-left: 30px;
     @media screen and (max-width: 390px) {
@@ -60,5 +67,20 @@ $bootstrap: #602c50;
     color: $text-color;
     @media screen and (max-width: 545px) {
         font-size: 32px;
+    }
+}
+
+@mixin specialLink {
+    position: relative;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: $tertiary-color;
+    text-decoration-thickness: 2px; /* Épaisseur de l'underline */
+    text-underline-offset: 10px; /* Espacement entre le texte et l'underline */
+    @media screen and (max-width: 460px) {
+        font-size: 16px;
+    }
+    @media screen and (max-width: 350px) {
+        font-size: 12px;
     }
 }

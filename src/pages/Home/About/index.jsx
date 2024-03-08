@@ -37,7 +37,7 @@ function About() {
                                 mettre à profit dans mon apprentissage et mes
                                 futures réalisations dans ce domaine. Récemment
                                 diplômé d'une formation de développeur Web avec
-                                d'OpenClassrooms, je suis désormais désireux de
+                                OpenClassrooms, je suis désormais désireux de
                                 continuer à approfondir mes compétences en
                                 intégrant une{" "}
                                 <strong>
