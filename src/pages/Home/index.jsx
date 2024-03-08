@@ -33,7 +33,7 @@ function Home() {
         setMessageToastBar,
     ])
     return (
-        <main className="main__conatainer">
+        <main className="main__container">
             <Introduction />
             <About />
             <Skills />

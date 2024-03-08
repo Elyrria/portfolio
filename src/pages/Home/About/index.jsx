@@ -1,8 +1,8 @@
 import pOpen from "../../../assets/svg/balise_p_open.svg"
 import pClose from "../../../assets/svg/balise_p_close.svg"
 import scrollMouse from "../../../assets/svg/scroll-mouse.svg"
-import imageSectionAbout from "../../../assets/image_section_about.webp"
-import backgroundSection from "../../../assets/fond_section.png"
+import imageSectionAbout from "../../../assets/image-section-about.webp"
+import backgroundSection from "../../../assets/fond-section.webp"
 import "./About.scss"
 
 function About() {

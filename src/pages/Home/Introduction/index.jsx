@@ -52,8 +52,15 @@ function Introduction() {
                                 Actuellement en recherche d’
                                 <strong>alternance </strong>
                                 pour préparer une formation de développeur
-                                Full-Stack avec le centre de formation Créative
-                                à Hérouville-Saint-Clair (14)
+                                Full-Stack avec le centre de formation{" "}
+                                <a
+                                    href="https://www.creative-formation.fr/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Créative 
+                                </a>
+                                {" "} à Hérouville-Saint-Clair (14)
                             </p>
                             <div>
                                 <img src={pClose} alt="Balise p fermante" />

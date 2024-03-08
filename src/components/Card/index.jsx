@@ -1,4 +1,4 @@
-import profilPicture from "../../assets/img_cv1.webp"
+import profilPicture from "../../assets/img-cv1.webp"
 import stacks from "../../datas/stacks.json"
 import iconMail from "../../assets/svg/icon-mail.svg"
 import iconMapPin from "../../assets/svg/icon-map-pin.svg"

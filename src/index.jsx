@@ -17,7 +17,7 @@ root.render(
                 <Header />
                 <Routes>
                     <Route path="/portfolio" element={<Home />} />
-                    <Route path="/projet" element={<Project />} />
+                    <Route path="/projets" element={<Project />} />
                     <Route path="*" element={<Error />} />
                 </Routes>
             </DataActiveToastBar>

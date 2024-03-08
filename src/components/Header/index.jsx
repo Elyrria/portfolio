@@ -10,17 +10,14 @@ function Header() {
             <div className="header__container">
                 <div className="header__container-title">
                     <div className="title-svg">
-                        <img
-                            src={tagC}
-                            alt="balise code fermante"
-                        />
+                        <img src={tagC} alt="balise code fermante" />
                     </div>
                     <h1 className="title-element">QuentinDumon</h1>
                 </div>
                 <nav className="header__container-navigation">
                     <div className="navigation-links">
                         <NavLink to="/portfolio">Accueil</NavLink>
-                        <NavLink to="/projet">Projet</NavLink>
+                        <NavLink to="/projets">Projet</NavLink>
                     </div>
                     <div className="navigation-socialLinks">
                         <a

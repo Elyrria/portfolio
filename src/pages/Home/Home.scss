@@ -1,6 +1,6 @@
 @import "../../styles/globalStyle";
 
-.main__conatainer {
+.main__container {
     @include globalPaddingLeftRight;
     @include globalPaddingTopBottom;
     background-color: $primary-color;
