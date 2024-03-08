@@ -4,14 +4,6 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .introduction__title {
-        color: $main-secondary-color;
-        font-size: 88px;
-        margin-bottom: 64px;
-        @media screen and (max-width: 530px) {
-            display: none;
-        }
-    }
     .introduction__container {
         display: flex;
         flex-direction: column;

@@ -1,8 +1,9 @@
 @import "../../styles/globalStyle";
-
-.inProgress {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 64px 0;
+.main__container {
+    .main__container-projects {
+        .main__title-style {
+            text-align: center;
+            margin-bottom: 0;
+        }
+    }
 }

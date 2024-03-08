@@ -38,8 +38,8 @@ $bootstrap: #602c50;
 }
 
 @mixin paraPaddingLeft {
-    padding-left: 25px;
-    @media screen and (max-width: 330px) {
+    padding-left: 30px;
+    @media screen and (max-width: 390px) {
         padding-left: 0;
     }
 }

@@ -1,8 +1,23 @@
 import "./Project.scss"
+import { useEffect } from "react"
+import projects from "../../datas/projets.json"
+import ProjectSection from "../../components/ProjectSection"
 function Project() {
+    useEffect(() => {
+        document.title = "Projets - Quentin Dumon"
+    }, [])
     return (
-        <main>
-            <div className="inProgress">Page en construction 🚧</div>
+        <main className="main__container">
+            <div className="main__container-projects">
+                <h2 className="main__title-style">Mes Projets</h2>
+                {projects.map((project, index) => (
+                    <ProjectSection
+                        key={project.id}
+                        projet={project}
+                        index={index}
+                    />
+                ))}
+            </div>
         </main>
     )
 }

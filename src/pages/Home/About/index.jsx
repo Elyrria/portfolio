@@ -1,5 +1,3 @@
-import pOpen from "../../../assets/svg/balise_p_open.svg"
-import pClose from "../../../assets/svg/balise_p_close.svg"
 import scrollMouse from "../../../assets/svg/scroll-mouse.svg"
 import imageSectionAbout from "../../../assets/image-section-about.webp"
 import backgroundSection from "../../../assets/fond-section.webp"
@@ -23,7 +21,7 @@ function About() {
                             À Propos
                         </h2>
                         <div className="sectionAbout__subContainer-para">
-                            <img src={pOpen} alt="Balise p ouvrante" />
+                            <span className="balise__p-style">{"<p>"}</span>
                             <p>
                                 <span className="modificationOrange">
                                     Bonjour!
@@ -58,7 +56,7 @@ function About() {
                                 </strong>
                                 .
                             </p>
-                            <img src={pClose} alt="Balise p fermante" />
+                            <span className="balise__p-style">{"</p>"}</span>
                         </div>
                     </div>
                     <div className="sectionAbout__mainContainer-image">

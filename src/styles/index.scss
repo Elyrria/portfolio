@@ -50,6 +50,34 @@ em {
 img {
     object-fit: cover;
 }
+.balise__c-style {
+    color: $main-secondary-color;
+}
+.main__container {
+    @include globalPaddingLeftRight;
+    @include globalPaddingTopBottom;
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 128px;
+    @media screen and (max-width: 768px) {
+        gap: 64px;
+    }
+    .main__title-style {
+        color: $main-secondary-color;
+        font-size: 88px;
+        margin-bottom: 64px;
+        @media screen and (max-width: 530px) {
+            display: none;
+        }
+    }
+    .balise__p-style,
+    .balise__h1-style {
+        color: $secondary-color;
+        font-size: 14px;
+    }
+}
 
 .specifiqueTitleSection {
     display: flex;

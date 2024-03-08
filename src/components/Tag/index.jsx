@@ -1,6 +1,7 @@
 import "./Tag.scss"
 function Tag({ name }) {
-    return <span className="tags__container-tag">{name}</span>
+    const tag = name.toUpperCase()
+    return <span className="tags__container-tag">{tag}</span>
 }
 
 export default Tag

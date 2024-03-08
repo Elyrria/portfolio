@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom"
-import tagC from "../../assets/svg/balise_c.svg"
 import iconLinkedIn from "../../assets/svg/linkedin-orange.svg"
 import iconGitHub from "../../assets/svg/github-orange.svg"
 import "./Header.scss"
@@ -8,12 +7,10 @@ function Header() {
     return (
         <header>
             <div className="header__container">
-                <div className="header__container-title">
-                    <div className="title-svg">
-                        <img src={tagC} alt="balise code fermante" />
-                    </div>
-                    <h1 className="title-element">QuentinDumon</h1>
-                </div>
+                <h1 className="header__container-title">
+                    <span className="balise__c-style">{"<C/> "}</span>
+                    QuentinDumon
+                </h1>
                 <nav className="header__container-navigation">
                     <div className="navigation-links">
                         <NavLink to="/portfolio">Accueil</NavLink>

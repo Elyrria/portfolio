@@ -1,16 +1,6 @@
 @import "../../styles/globalStyle";
 
 .main__container {
-    @include globalPaddingLeftRight;
-    @include globalPaddingTopBottom;
-    background-color: $primary-color;
-    display: flex;
-    flex-direction: column;
-    gap: 128px;
-    @media screen and (max-width: 768px) {
-        gap: 64px;
-    }
-
     .custom-toast {
         border: 3px solid $tertiary-color;
         background-color: $primary-color;

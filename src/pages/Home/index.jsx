@@ -18,6 +18,7 @@ function Home() {
     } = useContext(SharedActiveToastBar)
 
     useEffect(() => {
+        document.title = "Portfolio - Quentin Dumon"
         if (isActiveToastBar) {
             const notify = () => toast(messageToastBar)
             notify()

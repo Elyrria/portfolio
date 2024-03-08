@@ -1,7 +1,11 @@
 import image404 from "../../assets/404.webp"
+import { useEffect } from "react"
 import { Link } from "react-router-dom"
 import "./Error.scss"
 function Error() {
+    useEffect(() => {
+        document.title = "404 - Error 🙈"
+    }, [])
     return (
         <main>
             <div className="error__container">
