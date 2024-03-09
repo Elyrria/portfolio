@@ -26,6 +26,7 @@ p {
 a {
     text-decoration: none;
     color: $main-secondary-color;
+    font-weight: 500;
     &:hover {
         opacity: 0.5;
         text-decoration: underline;
@@ -42,7 +43,7 @@ h5 {
 
 strong,
 em {
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
     color: $main-secondary-color;
 }

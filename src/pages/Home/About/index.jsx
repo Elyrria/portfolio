@@ -62,7 +62,7 @@ function About() {
                     <div className="sectionAbout__mainContainer-image">
                         <img
                             src={imageSectionAbout}
-                            alt="Personne assise devant son pc portable"
+                            alt="Quentin à son bureau"
                         />
                     </div>
                 </div>
