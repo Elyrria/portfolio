@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3da15e7f.css",
-    "main.js": "/portfolio/static/js/main.d8359d4a.js",
+    "main.css": "/portfolio/static/css/main.8d25c487.css",
+    "main.js": "/portfolio/static/js/main.25dfd93e.js",
     "static/media/fond-section.webp": "/portfolio/static/media/fond-section.cb3a801e3e540dfc2d9d.webp",
     "static/media/fond-section-projects.webp": "/portfolio/static/media/fond-section-projects.0469229521f126758a71.webp",
     "static/media/image-section-about.webp": "/portfolio/static/media/image-section-about.4f4a767f26f30bb4c186.webp",
@@ -22,12 +22,12 @@
     "static/media/img-cv1.webp": "/portfolio/static/media/img-cv1.f5f8c3f1cf1520c6f80a.webp",
     "static/media/scroll-mouse.svg": "/portfolio/static/media/scroll-mouse.e303a87acdd5d718710e378adf5cafc9.svg",
     "static/media/icon-sass.svg": "/portfolio/static/media/icon-sass.93ca6fa81a33b5a0b972d4f8b20a6f3b.svg",
+    "index.html": "/portfolio/index.html",
     "static/media/icon-nodejs.svg": "/portfolio/static/media/icon-nodejs.93bb65661a6add57f740d2540d2629dd.svg",
     "static/media/linkedin-orange.svg": "/portfolio/static/media/linkedin-orange.2bc13bb1fa0f39faeb7b1a65fbd3bcaf.svg",
     "static/media/icon-map-pin.svg": "/portfolio/static/media/icon-map-pin.4551d87e314e8b32d7124d213879e259.svg",
     "static/media/github.svg": "/portfolio/static/media/github.aa931f147ae22fbbe6b2934c43d86131.svg",
     "static/media/github-orange.svg": "/portfolio/static/media/github-orange.9d647133ee084af7836eca955efd09e0.svg",
-    "index.html": "/portfolio/index.html",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.74e3eecb63076e04801bd428a54f32ed.svg",
     "static/media/icon-mongodb.svg": "/portfolio/static/media/icon-mongodb.40a7ec46f9d694e313d7359842570990.svg",
     "static/media/icon-download.svg": "/portfolio/static/media/icon-download.bc1cf402a294dbd8f9e5d915bda8c50f.svg",
@@ -40,11 +40,11 @@
     "static/media/icon-js.svg": "/portfolio/static/media/icon-js.c6e2bf2242fe1a637a2f6645223199a8.svg",
     "static/media/balise-fermante.svg": "/portfolio/static/media/balise-fermante.ad655bc28cb74d87fcb3f56284864b73.svg",
     "static/media/icon-css3.svg": "/portfolio/static/media/icon-css3.3de0f286943a6618710696bcdb163988.svg",
-    "main.3da15e7f.css.map": "/portfolio/static/css/main.3da15e7f.css.map",
-    "main.d8359d4a.js.map": "/portfolio/static/js/main.d8359d4a.js.map"
+    "main.8d25c487.css.map": "/portfolio/static/css/main.8d25c487.css.map",
+    "main.25dfd93e.js.map": "/portfolio/static/js/main.25dfd93e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3da15e7f.css",
-    "static/js/main.d8359d4a.js"
+    "static/css/main.8d25c487.css",
+    "static/js/main.25dfd93e.js"
   ]
 }
