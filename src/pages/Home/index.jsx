@@ -5,11 +5,13 @@ import Contact from "./Contact"
 import Projets from "./Projets"
 import { SharedActiveToastBar } from "../../utils/context/ActiveToastBar"
 import { Bounce, ToastContainer, toast } from "react-toastify"
+import { useLocation } from "react-router-dom"
 import { useContext, useEffect } from "react"
 import "react-toastify/dist/ReactToastify.css"
 import "./Home.scss"
 
 function Home() {
+    const { hash } = useLocation()
     const {
         isActiveToastBar,
         messageToastBar,
@@ -27,11 +29,15 @@ function Home() {
                 setMessageToastBar("")
             }, 3500)
         }
+        if (hash === "") {
+            window.scrollTo(0, 0)
+        }
     }, [
         isActiveToastBar,
         messageToastBar,
         setIsActiveToastBar,
         setMessageToastBar,
+        hash,
     ])
     return (
         <main className="main__container">
