@@ -33,7 +33,14 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-
+            &-title {
+                max-width: 357px;
+                margin-bottom: 64px;
+                @include specifiqueTitileSection(
+                    $main-secondary-color,
+                    $tertiary-color
+                );
+            }
             @media screen and (min-width: 1440px) {
                 flex-direction: row;
                 gap: 128px;
@@ -42,47 +49,33 @@
             @media screen and (min-width: 768px) {
                 margin-bottom: 64px;
             }
-            .sectionAbout__subContainer {
-                @media screen and (max-width: 768px) {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
+            &-para {
+                width: 50%;
+                max-width: 850px;
+                background-color: $primary-color;
+                border-radius: 40px;
+                padding: 24px 40px;
+                font-size: 16px;
+                @include marginBottom();
+                p {
+                    @include paraPaddingLeft();
                 }
-                &-title {
-                    max-width: 357px;
-                    margin-bottom: 64px;
-                    @include specifiqueTitileSection(
-                        $main-secondary-color,
-                        $tertiary-color
-                    );
-                }
-                &-para {
-                    max-width: 850px;
-                    background-color: $primary-color;
-                    border-radius: 40px;
-                    padding: 24px 40px;
-                    font-size: 16px;
-                    @include marginBottom();
-                    p {
-                        @include paraPaddingLeft();
-                    }
-                    .modificationOrange {
-                        font-size: 32px;
-                        color: $main-secondary-color;
-                    }
+                .modificationOrange {
+                    font-size: 32px;
+                    color: $main-secondary-color;
                 }
             }
-            &-image {
-                margin-bottom: 64px;
-                @media screen and (min-width: 1440px) {
-                    margin-bottom: 128px;
-                }
-                img {
-                    width: 100%;
-                    border-radius: 35px;
-                    @media screen and (max-width: 390px) {
-                        max-width: 272px;
-                    }
+        }
+        &-image {
+            margin-bottom: 64px;
+            @media screen and (min-width: 1440px) {
+                margin-bottom: 128px;
+            }
+            video {
+                width: 100%;
+                border-radius: 35px;
+                @media screen and (max-width: 390px) {
+                    max-width: 272px;
                 }
             }
         }
