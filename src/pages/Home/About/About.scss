@@ -86,10 +86,7 @@
                     width: 100%;
                     max-width: 850px;
                     max-height: 479px;
-                    border-radius: 35px;
-                    @media screen and (max-width: 390px) {
-                        max-width: 272px;
-                    }
+                    border-radius: 10px;
                 }
             }
         }
