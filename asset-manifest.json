@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8d25c487.css",
-    "main.js": "/portfolio/static/js/main.dffe6222.js",
+    "main.css": "/portfolio/static/css/main.ff9f427a.css",
+    "main.js": "/portfolio/static/js/main.52c8fd8e.js",
+    "static/media/Dumon_Quentin_CV-video.mp4": "/portfolio/static/media/Dumon_Quentin_CV-video.d49d6847ef5810710b44.mp4",
     "static/media/fond-section.webp": "/portfolio/static/media/fond-section.cb3a801e3e540dfc2d9d.webp",
     "static/media/fond-section-projects.webp": "/portfolio/static/media/fond-section-projects.0469229521f126758a71.webp",
-    "static/media/image-section-about.webp": "/portfolio/static/media/image-section-about.4f4a767f26f30bb4c186.webp",
     "static/media/qwenta-multi-screen.webp": "/portfolio/static/media/qwenta-multi-screen.8e5a42603ae7e45da434.webp",
     "static/media/nina-carducci-multi-screen.webp": "/portfolio/static/media/nina-carducci-multi-screen.dfa3b93405e38e9576d5.webp",
     "static/media/booki-multi-screen.webp": "/portfolio/static/media/booki-multi-screen.ae6fd895c1358096f100.webp",
@@ -40,11 +40,11 @@
     "static/media/icon-js.svg": "/portfolio/static/media/icon-js.c6e2bf2242fe1a637a2f6645223199a8.svg",
     "static/media/balise-fermante.svg": "/portfolio/static/media/balise-fermante.ad655bc28cb74d87fcb3f56284864b73.svg",
     "static/media/icon-css3.svg": "/portfolio/static/media/icon-css3.3de0f286943a6618710696bcdb163988.svg",
-    "main.8d25c487.css.map": "/portfolio/static/css/main.8d25c487.css.map",
-    "main.dffe6222.js.map": "/portfolio/static/js/main.dffe6222.js.map"
+    "main.ff9f427a.css.map": "/portfolio/static/css/main.ff9f427a.css.map",
+    "main.52c8fd8e.js.map": "/portfolio/static/js/main.52c8fd8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d25c487.css",
-    "static/js/main.dffe6222.js"
+    "static/css/main.ff9f427a.css",
+    "static/js/main.52c8fd8e.js"
   ]
 }
