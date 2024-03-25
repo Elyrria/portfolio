@@ -15,7 +15,7 @@ function About() {
                 <div className="sectionAbout__container-scrollSvg">
                     <img src={scrollMouse} alt="Scroll mouse" />
                 </div>
-                <h2 className="sectionAbout__mainContainer-title">À Propos</h2>
+                <h2 className="sectionAbout__container-title">À Propos</h2>
                 <div className="sectionAbout__mainContainer">
                     <div className="sectionAbout__mainContainer-para">
                         <span className="balise__p-style">{"<p>"}</span>
@@ -52,7 +52,7 @@ function About() {
                         </p>
                         <span className="balise__p-style">{"</p>"}</span>
                     </div>
-                    <div className="sectionAbout__mainContainer-image">
+                    <div className="sectionAbout__mainContainer-video">
                         <video src={videoSectionAbout} controls></video>
                     </div>
                 </div>
