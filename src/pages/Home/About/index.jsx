@@ -1,6 +1,7 @@
 import scrollMouse from "../../../assets/svg/scroll-mouse.svg"
 import videoSectionAbout from "../../../assets/Dumon_Quentin_CV-video.mp4"
 import backgroundSection from "../../../assets/fond-section.webp"
+import posterVideo from "../../../assets/poster-video.webp"
 import "./About.scss"
 
 function About() {
@@ -53,7 +54,11 @@ function About() {
                         <span className="balise__p-style">{"</p>"}</span>
                     </div>
                     <div className="sectionAbout__mainContainer-video">
-                        <video src={videoSectionAbout} controls></video>
+                        <video
+                            src={videoSectionAbout}
+                            controls
+                            poster={posterVideo}
+                        ></video>
                     </div>
                 </div>
             </div>
