@@ -13,7 +13,7 @@ function Header() {
                 </h1>
                 <nav className="header__container-navigation">
                     <div className="navigation-links">
-                        <NavLink to="/portfolio">Accueil</NavLink>
+                        <NavLink to="/portfolio/">Accueil</NavLink>
                         <NavLink to="/projets">Projet</NavLink>
                     </div>
                     <div className="navigation-socialLinks">
