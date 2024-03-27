@@ -29,60 +29,64 @@
             @include marginTop();
             @include marginBottom();
         }
+        &-title {
+            max-width: 357px;
+            margin-bottom: 64px;
+            @include specifiqueTitileSection(
+                $main-secondary-color,
+                $tertiary-color
+            );
+        }
         .sectionAbout__mainContainer {
             display: flex;
             flex-direction: column;
             align-items: center;
-
+            justify-content: center;
+            margin-bottom: 128px;
+            gap: 64px;
             @media screen and (min-width: 1440px) {
                 flex-direction: row;
                 gap: 128px;
-                align-items: flex-end;
             }
-            @media screen and (min-width: 768px) {
+            @media screen and (max-width: 768px) {
                 margin-bottom: 64px;
             }
-            .sectionAbout__subContainer {
-                @media screen and (max-width: 768px) {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                }
-                &-title {
-                    max-width: 357px;
-                    margin-bottom: 64px;
-                    @include specifiqueTitileSection(
-                        $main-secondary-color,
-                        $tertiary-color
-                    );
-                }
-                &-para {
-                    max-width: 850px;
-                    background-color: $primary-color;
-                    border-radius: 40px;
-                    padding: 24px 40px;
-                    font-size: 16px;
-                    @include marginBottom();
-                    p {
-                        @include paraPaddingLeft();
-                    }
-                    .modificationOrange {
-                        font-size: 32px;
-                        color: $main-secondary-color;
-                    }
-                }
-            }
-            &-image {
-                margin-bottom: 64px;
-                @media screen and (min-width: 1440px) {
-                    margin-bottom: 128px;
-                }
-                img {
+            &-para {
+                width: 50%;
+                max-width: 850px;
+                background-color: $primary-color;
+                border-radius: 40px;
+                padding: 24px 40px;
+                font-size: 16px;
+
+                @media screen and (max-width: 1439px) {
                     width: 100%;
-                    border-radius: 35px;
-                    @media screen and (max-width: 390px) {
-                        max-width: 272px;
-                    }
+                }
+
+                p {
+                    @include paraPaddingLeft();
+                }
+                .modificationOrange {
+                    font-size: 32px;
+                    color: $main-secondary-color;
+                }
+            }
+            &-video {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                height: 100%;
+                padding: 0px 24px;
+                @media screen and (max-width: 1439px) {
+                    width: 100%;
+                    padding: 0;
+                }
+                video {
+                    width: 100%;
+                    max-width: 850px;
+                    max-height: 479px;
+                    border-radius: 10px;
                 }
             }
         }
