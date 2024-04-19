@@ -1,5 +1,5 @@
 import scrollMouse from "../../../assets/svg/scroll-mouse.svg"
-import videoSectionAbout from "../../../assets/Dumon_Quentin_CV-video.mp4"
+import videoSectionAbout from "../../../assets/Dumon_Quentin_CV_video.mp4"
 import backgroundSection from "../../../assets/fond-section.webp"
 import posterVideo from "../../../assets/poster-video.webp"
 import "./About.scss"
@@ -39,17 +39,7 @@ function About() {
                                 formation de Développeur Full-Stack{" "}
                             </strong>
                             en
-                            <strong> alternance</strong> avec{" "}
-                            <strong>
-                                <a
-                                    href="https://www.creative-formation.fr/"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    Créative Formation
-                                </a>
-                            </strong>
-                            .
+                            <strong> alternance</strong>.
                         </p>
                         <span className="balise__p-style">{"</p>"}</span>
                     </div>

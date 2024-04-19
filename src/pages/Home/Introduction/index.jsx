@@ -44,18 +44,10 @@ function Introduction() {
                         <div className="presentation__container-middle">
                             <span className="balise__p-style">{"<p>"}</span>
                             <p>
-                                Actuellement en recherche d’
-                                <strong>alternance </strong>
+                                Actuellement en recherche d’une 
+                                <strong> alternance </strong> à la rentrée 2024
                                 pour préparer une formation de développeur
-                                Full-Stack avec le centre de formation{" "}
-                                <a
-                                    href="https://www.creative-formation.fr/"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    Créative
-                                </a>{" "}
-                                à Hérouville-Saint-Clair (14)
+                                Full-Stack.
                             </p>
                             <span className="balise__p-style">{"</p>"}</span>
                         </div>
